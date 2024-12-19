@@ -1,0 +1,982 @@
+/* Шрифт */
+/* @import url(&quot;https://fonts.googleapis.com/css2?family=Lato:ital,wght@100;300;400;700;900;100;300;400;700;900&amp;display=swap&quot;); */
+
+
+
+/* Обнуление стилей */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Применений своих стилей */
+
+h1,
+h2,
+h3,
+h4,
+p,
+button,
+a {
+  font-family: "Lato", sans-serif;
+  /* font-style: italic; */
+}
+
+.header {
+}
+
+.headerContainer {
+  display: flex;
+  width: 1600px;
+  margin: 0 auto;
+  height: 75px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerColor {
+  background: #222222;
+}
+
+.headerPosition {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation1 {
+  width: 111px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+}
+.navigation2 {
+  width: 159px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  position: relative;
+}
+
+.HeadBut {
+  cursor: pointer;
+  background: #222222;
+  border: none;
+}
+.headCorrP {
+  width: 19px;
+  height: 19px;
+  background: #f16d7f;
+  border-radius: 10px;
+  color: #ffffff;
+  position: absolute;
+  top: -4px;
+  right: -8px;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  /* height: 470px; */
+}
+
+/* Содержание сайта;блог main */
+.mainContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 764px;
+  background: #f1e4e6;
+  display: flex;
+  align-items: center;
+}
+
+/* .imgSection1 {
+margin-bottom: 100px;
+} */
+
+/* ЗДЕСЬ стили ДЛЯ вспл.окна */
+
+.iconMenu {
+
+}
+.main1_0Conte {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.mainBurMenu {
+  width: 232px;
+  height: 634px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  /* opacity: 0px; */
+}
+
+.recIcinX {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menusConteiners {
+  padding: 32px 0 0 33px;
+}
+.mainPosiMWK {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 20px;
+  line-height: 30px;
+}
+
+.theSameSize0 {
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.theSameSize1 {
+  padding-bottom: 20px;
+}
+
+.mainBurMenu h1 {
+  font-size: 14px;
+  font-weight: 700;
+  /* line-height: 17px; */
+  color: #000000;
+}
+
+.mainBurMenu h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  color: #f16d7f;
+}
+
+.textCola {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6f6e6e;
+  cursor: pointer;
+}
+
+/* ЗДЕСЬ конеЦ стилей ДЛЯ вспл.окна */
+
+.textSection1 {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  margin-left: 63px;
+  width: 405px;
+  height: 93px;
+}
+.textSection1 h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+
+.textSection1 p {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+.texCol {
+  color: #f16d7f;
+}
+
+/* Секция 2 */
+.section2Position {
+  display: flex;
+  flex-wrap: wrap;
+  height: 470px;
+  gap: 30px;
+  padding-top: 65px;
+  padding-bottom: 96px;
+}
+
+.pictureDimensions0 {
+  background-image: url(imgSection2/logoSection2.1.png);
+}
+
+.sect2sizePict {
+  width: 360px;
+  height: 260px;
+}
+
+.backgroundBlackout {
+  background: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2TextCorr h3 {
+  color: #f16d7f;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+.sec2TextCorr p {
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  display: flex;
+  justify-content: center;
+}
+
+.pictureDimensions1 {
+  background-image: url(imgSection2/logoSection2.2.png);
+}
+
+.pictureDimensions2 {
+  background-image: url(imgSection2/logoSection2.3.png);
+}
+
+.pictureDimensions3 {
+  background-image: url(imgSection2/logoSection2.4.png);
+}
+.sect2sizePict4 {
+  width: 1140px;
+  height: 180px;
+}
+
+/* Секция 3 */
+.section3Position {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.section3PositionCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.sec3TextCorr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 48px;
+}
+.sec3TextCorr h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #222222;
+}
+.sec3TextCorr p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #9f9f9f;
+}
+.card {
+  max-width: 360px;
+  height: 587px;
+  background: #f8f8f8;
+}
+.list__img {
+  position: relative;
+}
+.list__img:hover .magik__butt {
+  opacity: 1;
+}
+.magik__butt {
+  background: rgba(58, 56, 56, 0.86);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.card__butt {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 1;
+  background: rgba(58, 56, 56, 0.86);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  width: 139px;
+  height: 44px;
+  cursor: pointer;
+
+}
+.cardBloсk {
+  max-width: 360px;
+  height: auto;
+  padding: 24px 16px 24px 16px;
+}
+.cardBloсk h1 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  padding-bottom: 16px;
+}
+.cardBloсk p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #5d5d5d;
+  padding-bottom: 16px;
+}
+.cardBloсk h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #f16d7f;
+}
+.sect3button {
+  border: 1px solid #ff6a6a;
+  width: 212px;
+  height: 48px;
+  color: #f26376;
+  background: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+/* Секция 3 */ 
+/* Здесь стили для раздела КОРЗИНА */
+
+.container7S {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.sec7divDiv {
+  padding: 0 0 96px 230px;
+}
+
+.sec7Head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding:96px 0 64px 0;
+}
+
+.sec7HeadTitle {
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+color: #222222;
+}
+
+.cart-box {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.item {
+  width: 652px;
+  height: 306px;
+  box-shadow: 17px 19px 24px #00000021;
+  display: flex;
+}
+
+.item__content {
+  padding: 22px 31px ;
+  background: #ffffff;
+}
+
+.item__heading {
+  width: 262px;
+
+  /* MANGO PEOPLE T-SHIRT */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  margin-bottom: 42px;
+}
+
+.item__text {
+  /* Price: $300 */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+  margin-bottom: 6px;
+}
+
+.item__input {
+  width: 44px;
+  height: 24.95px;
+  border: 1px solid #eaeaea;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #656565;
+  margin-left: 24px;
+}
+
+.item__color {
+  color: #EF5B70;
+}
+
+.sec7deleteButt {
+  height: 18px;
+  width: 18px;
+  display: flex;
+  flex-direction: row-reverse;
+  /* Vector */
+background: none;
+border: none;
+} 
+
+.deleteDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 28px 22px 0 0;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  color: #575757;
+}
+/* КОНЕЦ СИЛЕЙ ДЛЯ КОРЗИНЫ */
+
+
+
+
+/* DZ-9 */
+.section4Position {
+  background: #222224;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.containerS {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 341px;
+}
+
+.sec4sizeFront {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card4 {
+  width: 360px;
+  height: 133px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+.card4 h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fbfbfb;
+  /* padding-top: 28px; */
+}
+.card4 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fbfbfb;
+  /* padding-top: 16px; */
+}
+
+/* Section №5 */
+.containerS5 {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 448px;
+}
+.pictureMountains0 {
+  background-image: url(imgSection5/Human.png);
+}
+.sect5sizePict {
+  height: 448px;
+}
+.backgroundBlackout1 {
+  background: rgba(244, 244, 244, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section5Posi {
+  display: flex;
+  justify-content: space-around;
+}
+.sec5sizeFront {
+  width: 1140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.dataSize {
+  width: 360px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sec5TextCorr0 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #222224;
+  padding-top: 30px;
+}
+.sec5TextCorr {
+  font-style: italic;
+}
+.sec5TextCorr1 {
+  font-style: italic;
+}
+.dataSize1 {
+  height: 142px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formButPosi {
+  display: flex;
+}
+.disFl {
+  display: flex;
+}
+.formSec5 {
+  width: 256px;
+  height: 49px;
+  cursor: pointer;
+  background: #e1e1e1;
+  border: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.sect3button:hover {
+  background: #ff6a6a;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.butSec5 {
+  width: 100px;
+  height: 49px;
+  cursor: pointer;
+  background: #e05c6e;
+  color: #ffffff;
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+/* секция №6 */
+.containerS6 {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 79px;
+  background: #222224;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sec6Text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+.Sec6Position {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec6Button {
+  width: 148px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cursorSec6 {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.cursorSec6:hover {
+  background: #ff6a6a;
+}
+.sec6Button button:hover svg {
+  fill: #ffffff;
+}
+
+/* DZ-7 адаптив под планшет */
+@media (min-width: 768px) and (max-width: 1146px) {
+  .headerContainer {
+    max-width: 768px;
+  }
+  .container {
+    max-width: 736px;
+  }
+  .headerPadd {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .navigation1 {
+    width: 111px;
+    gap: 41px;
+  }
+  .navigation2 {
+    width: 169px;
+  }
+
+  /* секция 1 */
+  .mainContainer {
+    max-width: 768px;
+    height: 368px;
+  }
+  .sizePicture {
+    max-width: 386px;
+    height: 368px;
+  }
+  .textSection1 {
+    padding-left: 16px;
+    margin-left: 39px;
+    max-width: 311px;
+    height: 92px;
+    gap: 39px;
+  }
+  .textSection1 h1 {
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .textSection1 p {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  /* Секция 2 */
+  .section2Position {
+    height: 303px;
+    gap: 19px;
+    padding-top: 65px;
+    padding-bottom: 109px;
+  }
+  .sect2sizePict {
+    width: 232px;
+    height: 167px;
+  }
+  .sect2sizePict4 {
+    width: 734px;
+    height: 116px;
+  }
+
+  /* секция 3 */
+  .section3Position {
+    margin-bottom: 70px;
+  }
+  .section3PositionCard {
+    gap: 16px;
+  }
+  .sec3TextCorr {
+    padding-bottom: 72px;
+  }
+  .card {
+    height: 582px;
+  }
+  .sect3button {
+    margin-top: 32px;
+  }
+
+  /* СЕКЦИЯ №4 */
+  .containerS {
+    max-width: 768px;
+    margin: 0 auto;
+    height: 610px;
+  }
+  .sec4sizeFront {
+    /* width: 768px;
+height: 610px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* СЕКЦИЯ №5 */
+  .containerS5 {
+    max-width: 768px;
+    margin: 0 auto;
+    height: 614px;
+  }
+  .pictureMountains0 {
+    background-image: url(imgSection5/Layer_41.png);
+  }
+  .section5Posi {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec5sizeFront {
+    width: 768px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sect5sizePict {
+    height: 614px;
+  }
+
+  /* СЕКЦИЯ 6 */
+  .containerS6 {
+    max-width: 768px;
+  }
+  .Sec6Position {
+    width: 736px;
+  }
+}
+
+/* DZ-8 адаптив под телефон */
+@media (max-width: 767px) {
+  /* @media (max-width: 375px) { */
+  .headerContainer {
+    max-width: 375px;
+  }
+  .container {
+    max-width: 736px;
+  }
+  /* скрываем элементы */
+  .hideCard {
+    display: none;
+  }
+  .navigation2_2 {
+    max-width: 32px;
+  }
+  .headerPadd {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  /* скрываем значок у корзины */
+  .headCorrP {
+    display: none;
+  }
+  .navigation2 {
+    width: 32px;
+  }
+
+
+
+
+  /* секция 1 */
+  .mainContainer {
+    width: 375px;
+    height: 363px;
+  }
+  .textSection1 {
+    width: 263px;
+    height: 66px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .textSection1 h1 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .textSection1 p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  /* Секция 2 */
+  .section2Position {
+    height: auto;
+    gap: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  .sect2sizePict {
+    width: 343px;
+    height: 247px;
+  }
+  .sect2sizePict4 {
+    width: 343px;
+    height: 111px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* секция 3 */
+  .section3Position {
+    margin-bottom: 85px;
+  }
+  .section3PositionCard {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .sec3TextCorr {
+    padding-bottom: 64px;
+  }
+  .card {
+    max-width: 343px;
+    height: 580px;
+  }
+  .sect3button {
+    margin-top: 40px;
+  }
+  .cardBloсk {
+    display: flex;
+    flex-direction: column;
+    padding: 31px 16px 31px 16px;
+  }
+
+  /* СЕКЦИЯ №4 */
+  .containerS {
+    max-width: 375px;
+    margin: 0 auto;
+    height: 610px;
+  }
+  .sec4sizeFront {
+    width: 375px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* СЕКЦИЯ №5 */
+  .containerS5 {
+    max-width: 375px;
+    margin: 0 auto;
+    height: 550px;
+  }
+  .pictureMountains0 {
+    background-image: url(imgSection5/Layer_41.png);
+  }
+  .section5Posi {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec5sizeFront {
+    width: 375px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sect5sizePict {
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .dataSize {
+    width: 343px;
+    height: 194px;
+  }
+
+  .dataSize1 {
+    height: 132px;
+  }
+
+  /* СЕКЦИЯ 6 */
+  .containerS6 {
+    max-width: 375px;
+    height: 143px;
+  }
+  .Sec6Position {
+    width: 375px;
+    height: 143px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+}
